@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Board from './components/board'; // Imported the Board component
+import Game from './components/game';
 import './index.css';
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
-  <Board />, // Rendered the Board component
+    <Game />, 
   document.getElementById('root')
 );
 registerServiceWorker();
