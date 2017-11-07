@@ -1,8 +1,8 @@
 import React from 'react';
 
-import EnterGuess from './enterGuess';
+import EnterGuess from '../enterGuess/EnterGuess';
 
-import './style/guessBox.css';
+import './GuessBox.css';
 
 export default function GuessBox(props) {
     return (
